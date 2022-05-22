@@ -1,0 +1,22 @@
+#my-technical-skills {
+    color: var(--dark)
+}
+.card-holder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 20%;
+    max-height: 250px;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 3%;
+    background-color: var(--light);
+    border-radius: 15px;
+  }
+  .skill-badge {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto 20px;
+  }

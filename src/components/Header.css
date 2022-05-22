@@ -28,7 +28,23 @@ Header {
     width: 50%;
     height: 15vh;
 }
-
+.header-nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-nav button {
+    height: 50px;
+    width: 120px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--dark);
+    background-color: var(--light);
+    border: none;
+    border-radius: 15px;
+}
 @media only screen and (max-width: 780px) {
     .header-left img {
         display: none;
