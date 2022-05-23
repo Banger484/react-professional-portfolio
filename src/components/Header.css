@@ -10,25 +10,24 @@ Header {
     height: 15vh;
     background-color: var(--dark);
     display: flex;
+    flex-direction: column;
 }
-.header-left {
-    width: 50%;
-    height: 15vh;
+.header-top {
+    height: 10vh;
+    width: 100%;
     display: flex;
     color: var(--light);
     align-items: center;
 }
-.header-left img {
+.header-top img {
     border-radius: 250px;
     border: 2px solid var(--light);
     height: 90%;
     margin: 0 20px;
 }
-.header-right {
-    width: 50%;
-    height: 15vh;
-}
+
 .header-nav {
+    border: 1px solid red;
     height: 100%;
     width: 100%;
     display: flex;
