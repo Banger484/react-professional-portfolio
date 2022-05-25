@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link }  from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -6,7 +7,7 @@ export default function Header() {
       <div className="header-top">
         <img
           src={require("../assets/imgs/my-avatar.jpg")}
-          alt="Picture of Bret"
+          alt="Bret"
         />
         <div>
           <h1 className="header-name">Bret Banger</h1>
@@ -15,21 +16,21 @@ export default function Header() {
       </div>
       <div className="header-bottom">
         <nav className="header-nav">
-          <a href="/react-professional-portfolio/">
+          <Link to="/react-professional-portfolio/">
             <button>Home</button>
-          </a>
-          <a href="/react-professional-portfolio/about">
+          </Link>
+          <Link to="/react-professional-portfolio/about">
             <button>About</button>
-          </a>
-          <a href="/react-professional-portfolio/skills">
+          </Link>
+          <Link to="/react-professional-portfolio/skills">
             <button>Skills</button>
-          </a>
-          <a href="/react-professional-portfolio/projects">
+          </Link>
+          <Link to="/react-professional-portfolio/projects">
             <button>Projects</button>
-          </a>
-          <a href="/react-professional-portfolio/resume">
+          </Link>
+          <Link to="/react-professional-portfolio/resume">
             <button>Resume</button>
-          </a>
+          </Link>
         </nav>
       </div>
  
