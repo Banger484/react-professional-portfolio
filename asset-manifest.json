@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-professional-portfolio/static/css/main.af4e147f.css",
-    "main.js": "/react-professional-portfolio/static/js/main.0c80a604.js",
+    "main.js": "/react-professional-portfolio/static/js/main.abccf4c8.js",
     "static/js/787.45fb4f51.chunk.js": "/react-professional-portfolio/static/js/787.45fb4f51.chunk.js",
     "static/media/my-avatar.jpg": "/react-professional-portfolio/static/media/my-avatar.b0b00dbb652d3906fc4a.jpg",
     "static/media/Bret_Banger_Resume.PDF": "/react-professional-portfolio/static/media/Bret_Banger_Resume.e416ec613ff56ef701fc.PDF",
@@ -14,11 +14,11 @@
     "static/media/html-badge.png": "/react-professional-portfolio/static/media/html-badge.6e5363d5de526dec4f8a.png",
     "index.html": "/react-professional-portfolio/index.html",
     "main.af4e147f.css.map": "/react-professional-portfolio/static/css/main.af4e147f.css.map",
-    "main.0c80a604.js.map": "/react-professional-portfolio/static/js/main.0c80a604.js.map",
+    "main.abccf4c8.js.map": "/react-professional-portfolio/static/js/main.abccf4c8.js.map",
     "787.45fb4f51.chunk.js.map": "/react-professional-portfolio/static/js/787.45fb4f51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af4e147f.css",
-    "static/js/main.0c80a604.js"
+    "static/js/main.abccf4c8.js"
   ]
 }
