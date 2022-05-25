@@ -11,11 +11,11 @@ export default function Content () {
     return (
         <div className='content-main'>
                 <Routes>
-                    <Route path='/' element={ <Welcome /> } />
-                    <Route path='/about' element={ <About /> } />
-                    <Route path='/skills' element={ <Skills /> } />
-                    <Route path='/projects' element={ <Projects /> } />
-                    <Route path='/resume' element={ <Resume /> } />
+                    <Route path='/react-professional-portfolio' element={ <Welcome /> } />
+                    <Route path='/react-professional-portfolio/about' element={ <About /> } />
+                    <Route path='/react-professional-portfolio/skills' element={ <Skills /> } />
+                    <Route path='/react-professional-portfolio/projects' element={ <Projects /> } />
+                    <Route path='/react-professional-portfolio/resume' element={ <Resume /> } />
                 </Routes>
         </div>
     )
