@@ -1,5 +1,5 @@
 import "./Content.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
 import Welcome from "./Welcome";
@@ -9,24 +9,13 @@ import Projects from "./Projects";
 export default function Content() {
   return (
     <div className="content-main">
-    <Router>
       <Routes>
-        <Route path="#/" exact component={<Welcome />} />
-        <Route path="#/about" exact component={<About />} />
-        <Route
-          path="#/skills"
-          exact component={<Skills />}
-        />
-        <Route
-          path="#/projects"
-          exact component={<Projects />}
-        />
-        <Route
-          path="#/resume"
-          exact component={<Resume />}
-        />
+        <Route exact path="/" element={<Welcome />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/skills" element={<Skills />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/resume" element={<Resume />} />
       </Routes>
-    </Router>
     </div>
   );
 }
