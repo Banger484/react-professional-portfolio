@@ -16,19 +16,19 @@ export default function Header() {
       </div>
       <div className="header-bottom">
         <nav className="header-nav">
-          <Link to="/react-professional-portfolio/">
+          <Link to="/">
             <button>Home</button>
           </Link>
-          <Link to="/react-professional-portfolio/about">
+          <Link to="/about">
             <button>About</button>
           </Link>
-          <Link to="/react-professional-portfolio/skills">
+          <Link to="/skills">
             <button>Skills</button>
           </Link>
-          <Link to="/react-professional-portfolio/projects">
+          <Link to="/projects">
             <button>Projects</button>
           </Link>
-          <Link to="/react-professional-portfolio/resume">
+          <Link to="/resume">
             <button>Resume</button>
           </Link>
         </nav>

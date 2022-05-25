@@ -10,18 +10,18 @@ export default function Content() {
   return (
     <div className="content-main">
       <Routes>
-        <Route path="/react-professional-portfolio/" exact component={<Welcome />} />
-        <Route path="/react-professional-portfolio/about" exact component={<About />} />
+        <Route path="/" exact component={<Welcome />} />
+        <Route path="/about" exact component={<About />} />
         <Route
-          path="/react-professional-portfolio/skills"
+          path="/skills"
           exact component={<Skills />}
         />
         <Route
-          path="/react-professional-portfolio/projects"
+          path="/projects"
           exact component={<Projects />}
         />
         <Route
-          path="/react-professional-portfolio/resume"
+          path="/resume"
           exact component={<Resume />}
         />
       </Routes>
