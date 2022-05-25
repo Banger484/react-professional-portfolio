@@ -3,7 +3,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
-      {/* <div className="header-top">
+      <div className="header-top">
         <img
           src={require("../assets/imgs/my-avatar.jpg")}
           alt="Picture of Bret"
@@ -31,31 +31,8 @@ export default function Header() {
             <button>Resume</button>
           </a>
         </nav>
-      </div> */}
-      <nav class="navbar bg-navbar navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav links-right">
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#my-goal">My Goal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#my-technical-skills">Technical Skills</a>
-          </li>    
-          <li class="nav-item">
-            <a class="nav-link" href="#my-projects">My Projects</a>
-          </li> 
-        </ul>
       </div>
-    </div>
-  </nav>
+ 
     </header>
   );
 }
