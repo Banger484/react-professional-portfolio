@@ -1,5 +1,5 @@
 import "./Content.css";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
 import Welcome from "./Welcome";
@@ -10,11 +10,11 @@ export default function Content() {
   return (
     <div className="content-main">
       <Routes>
-        <Route exact path="/" element={<Welcome />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/skills" element={<Skills />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/resume" element={<Resume />} />
+        <Route path="/" element={<Welcome />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   );
