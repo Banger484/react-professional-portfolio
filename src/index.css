@@ -1,0 +1,36 @@
+:root {
+  --darkest: #081c3d;
+  --dark: #175676;
+  --medium: #4ba3c3;
+  --light: #cce6f4;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--darkest);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+
